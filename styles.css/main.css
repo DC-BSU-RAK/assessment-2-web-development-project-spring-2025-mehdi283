@@ -167,10 +167,12 @@ nav a.active {
 }
 
 .feature-card img {
-    width: 120%;
-    max-width: 190px;
+    width: 800%;
+    max-width: 800px;
     border-radius: 10px;
     margin-bottom: 25px;
+    height: 400px;
+    padding: 10px;
 }
 
 .feature-card h2 {
@@ -186,7 +188,7 @@ nav a.active {
 /* Doctor Grid */
 .doctor-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(230px, 2fr));
     gap: 15px;
     margin-top: 25px;
 }
@@ -197,8 +199,8 @@ nav a.active {
     padding: 20px;
     text-align: center;
     box-shadow: 0 5px 18px rgba(221, 4, 4, 0.05);
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
-    animation: fadeUp 3s ease;
+    transition: transform 0.10s ease, box-shadow 0.10s ease;
+    animation: fadeUp 5s ease;
 }
 
 .doctor-card:hover {
